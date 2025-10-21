@@ -20,7 +20,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <header className="fixed flex justify-between w-full items-center p-5 bg-[#ffeb77]">
+    <header className="flex justify-between w-full items-center p-3 bg-[#ffeb77]">
       <h1 className="text-[24px]">IZAK</h1>
       <nav className="text-[16px]">
         <Nav list={navbarlist} />
